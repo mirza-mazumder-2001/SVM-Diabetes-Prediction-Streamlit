@@ -26,5 +26,5 @@ if st.button("Predict"):
     if prediction[0] == 1:
         st.error("🩸 **The patient is Diabetic**")
     else:
-        st.success("💚 **The patient Not Diabetic**")
+        st.success("💚 **The patient is Not Diabetic**")
 
