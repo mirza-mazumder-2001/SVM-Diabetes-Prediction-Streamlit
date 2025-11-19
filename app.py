@@ -28,5 +28,3 @@ if st.button("Predict"):
     else:
         st.success("💚 **The patient Not Diabetic**")
 
-st.write("---")
-st.write("Built by Mirza Hussain Mazumder")
