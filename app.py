@@ -6,7 +6,7 @@ import pickle
 with open("svm.sav", "rb") as f:
     model = pickle.load(f)
 
-st.title("🔍 Diabetes Prediction using SVM")
+st.title("🩺  Diabetes Prediction using SVM")
 st.write("Enter the patient details below to predict whether they may have diabetes.")
 
 pregnancies = st.number_input("Pregnancies", min_value=0, max_value=20, value=2)
